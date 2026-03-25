@@ -13,3 +13,10 @@ let qtdDois = Number(prompt("Digite o segundo número:"));
 let subtracao = qtdUm - qtdDois;
 
 alert(`A subtração entre o ${qtdUm} e o ${qtdDois} é igual a ${subtracao.toFixed(2)}.`);
+
+//Multiplicação
+let numUm = Number(prompt("Digite um número:"));
+let numDois = Number(prompt("Digite outro número:"));
+let multiplicacao = numUm * numDois;
+
+alert(`O produto entre o ${numUm} e o ${numDois} será  ${multiplicacao}`);
