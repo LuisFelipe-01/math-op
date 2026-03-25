@@ -1,6 +1,15 @@
+//Adição
 // nUm = Numero Um, nDois = Numero Dois 
 let nUm = Number(prompt("insira o primeiro número:"));
 let nDois = Number(prompt("insira o segundo número:"));
 let adicao = nUm + nDois;
 
 alert(`A soma do ${nUm} e do ${nDois} dará o total de ${adicao.toFixed(2)}`);
+
+//Subtração
+//qtd= Quantidade
+let qtdUm = Number(prompt("Digite o primeiro número:"));
+let qtdDois = Number(prompt("Digite o segundo número:"));
+let subtracao = qtdUm - qtdDois;
+
+alert(`A subtração entre o ${qtdUm} e o ${qtdDois} é igual a ${subtracao.toFixed(2)}.`);
