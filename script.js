@@ -20,3 +20,10 @@ let numDois = Number(prompt("Digite outro número:"));
 let multiplicacao = numUm * numDois;
 
 alert(`O produto entre o ${numUm} e o ${numDois} será  ${multiplicacao}`);
+
+//Divisão
+let valorUm = Number(prompt("Insira o primeiro valor:"));
+let valorDois = Number(prompt("Insira o segundo valor:"));
+let dvisao = valorUm / valorDois;
+
+alert(`O valor da divisão é igual a ${dvisao.toFixed(2)}`);
