@@ -1,3 +1,4 @@
+//qtd= Quantidade
 let qtdUm = Number(prompt("Digite o primeiro número:"));
 let qtdDois = Number(prompt("Digite o segundo número:"));
 let subtracao = qtdUm - qtdDois;
