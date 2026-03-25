@@ -1,5 +1,6 @@
-let numUm = Number(prompt("insira o primeiro número:"));
-let numDois = Number(prompt("insira o segundo número:"));
-let adicao = numUm + numDois;
+// nUm = Numero Um, nDois = Numero Dois 
+let nUm = Number(prompt("insira o primeiro número:"));
+let nDois = Number(prompt("insira o segundo número:"));
+let adicao = nUm + nDois;
 
-alert(`A soma do ${numUm} e do ${numDois} dará o total de ${adicao.toFixed(2)}`);
+alert(`A soma do ${nUm} e do ${nDois} dará o total de ${adicao.toFixed(2)}`);
